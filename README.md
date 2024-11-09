@@ -516,6 +516,7 @@
 | 工具使用 | [MySQL client pager/edit/tee 介绍](http://mysql.taobao.org/monthly/2023/09/02/) |
 | 行业动态 | [AWS re:Invent2023 Aurora 发布了啥](http://mysql.taobao.org/monthly/2023/12/01/) |
 | 内核剖析 | [issue 111538 MySQL 8.0 instant add/drop column 性能回退问题](http://mysql.taobao.org/monthly/2023/12/02/) |
+| 查询优化 | [MySQL查询优化分析 - MySQL优化执行的基础概念](http://mysql.taobao.org/monthly/2024/04/01/) |
 
 ## PostgreSQL
 
@@ -875,6 +876,8 @@
 | 引擎分析 | [POLARIS 基于单机数据库扩展的分布式查询处理引擎](http://mysql.taobao.org/monthly/2021/08/03/) |
 | 数据库系统 | [事物并发控制 · Two-phase Lock Protocol](http://mysql.taobao.org/monthly/2021/10/02/) |
 | 存储引擎 | [HTAP列存引擎探秘](http://mysql.taobao.org/monthly/2022/02/02/) |
+| 实用工具 | [PT_PERF：基于 Intel PT 的时延性能分析工具](http://mysql.taobao.org/monthly/2024/04/02/) |
+| 实用工具 | [如何使用 Intel Processor Trace 工具查看任意函数执行时间](http://mysql.taobao.org/monthly/2024/04/03/) |
 
 ## X-Engine
 
