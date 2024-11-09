@@ -582,6 +582,10 @@
 | 源码分析 | [PostgreSQL物理备份内部原理](http://mysql.taobao.org/monthly/2018/08/06/) |
 | 源码分析 | [回放分析（一）](http://mysql.taobao.org/monthly/2020/04/01/) |
 | 源码分析 | [PostgreSQL 子事务探秘](http://mysql.taobao.org/monthly/2024/07/03/) |
+| 源码分析 | [PostgreSQL 插入常量的合法性检查](http://mysql.taobao.org/monthly/2024/08/01/) |
+| 源码分析 | [PostgreSQL MemoryContext 标准实现解读](http://mysql.taobao.org/monthly/2024/08/02/) |
+| 源码分析 | [Json — 从使用到源码](http://mysql.taobao.org/monthly/2019/02/07/) |
+| 源码分析 | [pg_repack 插件原理解读](http://mysql.taobao.org/monthly/2024/08/03/) |
 | 实现分析 | [PostgreSQL 10.0 并行查询和外部表的结合](http://mysql.taobao.org/monthly/2017/05/07/) |
 | 实战经验 | [如何预测Freeze IO风暴](http://mysql.taobao.org/monthly/2016/06/03/) |
 | 实战经验 | [分组TOP性能提升44倍](http://mysql.taobao.org/monthly/2016/07/03/) |
@@ -652,8 +656,10 @@
 | 内核优化 | [Hybrid DB for PG 赋能向量化执行和查询子树封装](http://mysql.taobao.org/monthly/2018/03/05/) |
 | 内核特性 | [RDS PostgreSQL 高并发场景下提高系统吞吐量](http://mysql.taobao.org/monthly/2018/06/07/) |
 | 内核特性 | [死锁检测与解决](http://mysql.taobao.org/monthly/2021/07/03/) |
-| 新特征 | [PG11并行Hash Join介绍](http://mysql.taobao.org/monthly/2018/07/06/) |
-| 新增特性 | [PG 13 新特性](http://mysql.taobao.org/monthly/2021/01/08/) |
+| 内核特性 | [PostgreSQL blink-tree implement notes](http://mysql.taobao.org/monthly/2024/08/04/) |
+| 内核特性 | [PolarStore弹性内存池（EMP）](http://mysql.taobao.org/monthly/2024/08/05/) |
+| 内核特性 | [PG11并行Hash Join介绍](http://mysql.taobao.org/monthly/2018/07/06/) |
+| 内核特性 | [PG 13 新特性](http://mysql.taobao.org/monthly/2021/01/08/) |
 | 引擎特性 | [PostgreSQL Hint Bits 简介](http://mysql.taobao.org/monthly/2018/12/02/) |
 | 引擎特性 | [PostgreSQL 并行查询概述](http://mysql.taobao.org/monthly/2019/01/04/) |
 | 引擎特性 | [多版本并发控制介绍及实例分析](http://mysql.taobao.org/monthly/2019/08/01/) |
@@ -662,7 +668,6 @@
 | 引擎特性 | [PostgreSQL 14 新特性浅析](http://mysql.taobao.org/monthly/2021/12/01/) |
 | 原理介绍 | [PostgreSQL行锁实现](http://mysql.taobao.org/monthly/2018/12/07/) |
 | 原理介绍 | [PostgreSQL中的空闲空间管理](http://mysql.taobao.org/monthly/2019/03/06/) |
-| 源码解析 | [Json — 从使用到源码](http://mysql.taobao.org/monthly/2019/02/07/) |
 | 新特性解读 | [undo log 存储接口（上）](http://mysql.taobao.org/monthly/2019/07/02/) |
 | 未来特性调研 | [TDE](http://mysql.taobao.org/monthly/2019/11/04/) |
 | 插件分析 | [plProfiler](http://mysql.taobao.org/monthly/2020/03/10/) |
