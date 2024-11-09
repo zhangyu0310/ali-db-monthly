@@ -893,6 +893,7 @@
 | 实用工具 | [PT_PERF：基于 Intel PT 的时延性能分析工具](http://mysql.taobao.org/monthly/2024/04/02/) |
 | 实用工具 | [如何使用 Intel Processor Trace 工具查看任意函数执行时间](http://mysql.taobao.org/monthly/2024/04/03/) |
 | 实用工具 | [使用PT_PERF排查线上慢SQL问题](http://mysql.taobao.org/monthly/2024/07/04/) |
+| 实用工具 | [通过 eBPF 进行跨线程的性能分析](http://mysql.taobao.org/monthly/2024/10/02/) |
 
 ## X-Engine
 
@@ -922,6 +923,7 @@
 | 引擎特性 | [PolarDB备份与恢复介绍](http://mysql.taobao.org/monthly/2022/07/02/) |
 | 引擎特性 | [DDL中MDL锁的优化和演进](http://mysql.taobao.org/monthly/2023/05/02/) |
 | 引擎特性 | [PolarDB IMCI中的行列融合执行](http://mysql.taobao.org/monthly/2023/05/04/) |
+| 引擎特性 | [PolarDB · 引擎特性 · BLOB 实现与性能优化](http://mysql.taobao.org/monthly/2024/10/01/) |
 | 性能优化 | [PolarDB auto_inc 场景性能优化之路](http://mysql.taobao.org/monthly/2023/03/01/) |
 | 源码分析 | [深度解析PolarDB的并行查询引擎](http://mysql.taobao.org/monthly/2021/01/01/) |
 | 优化改进 | [DDL的优化和演进](http://mysql.taobao.org/monthly/2021/01/03/) |
