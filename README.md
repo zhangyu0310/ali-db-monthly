@@ -1,35 +1,30 @@
 # 阿里云数据库内核月报分类整理
 
-<p align='center'>
-<a href="https://github.com/tangwz/db-monthly" target="_blank"><img alt="GitHub" src="https://img.shields.io/github/stars/tangwz/db-monthly?label=Stars&style=flat-square&logo=GitHub"></a>
-<a href="https://mp.weixin.qq.com/s/EcUrneGq_s2sPMxpUoHtWA" target="_blank"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-@%E5%A4%9A%E9%A2%97%E7%B3%96-000000.svg?style=flat-square&logo=WeChat">
-<a href="https://www.zhihu.com/people/duoketang" target="_blank"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-@tangwz-000000.svg?style=flat-square&logo=Zhihu"></a>
-</p>
+- [阿里云数据库内核月报分类整理](#阿里云数据库内核月报分类整理)
+  - [MySQL](#mysql)
+  - [PostgreSQL](#postgresql)
+  - [Redis](#redis)
+  - [MongoDB](#mongodb)
+  - [SQL Server](#sql-server)
+  - [MariaDB](#mariadb)
+  - [TokuDB](#tokudb)
+  - [GPDB](#gpdb)
+  - [Memcached](#memcached)
+  - [PG\&GP](#pggp)
+  - [SQL优化](#sql优化)
+  - [RocksDB](#rocksdb)
+  - [Influxdb](#influxdb)
+  - [Database](#database)
+  - [X-Engine](#x-engine)
+  - [PolarDB](#polardb)
+  - [PolarDB MySQL](#polardb-mysql)
+  - [AliSQL](#alisql)
+  - [PetaData](#petadata)
+  - [HybridDB](#hybriddb)
+  - [CloudDBA](#clouddba)
 
-* [MySQL](#mysql)
-* [PostgreSQL](#postgresql)
-* [Redis](#redis)
-* [MongoDB](#mongodb)
-* [SQL Server](#sql-server)
-* [MariaDB](#mariadb)
-* [TokuDB](#tokudb)
-* [Memcached](#memcached)
-* [Database 基础知识](#database)
-* [SQL优化](#sql优化)
-* [RocksDB](#rocksdb)
-* [Influxdb](#influxdb)
-* [PG&GP](#pggp)
-* [GPDB](#gpdb)
-* [X-Engine](#x-engine)
-* [PolarDB](#polardb)
-* [PolarDB MySQL](#polardb-mysql)
-* [AliSQL](#alisql)
-* [PetaData](#petadata)
-* [HybridDB](#hybriddb)
-* [CloudDBA](#clouddba)
+## MySQL
 
-
-# MySQL
 | 分类 | 标题  |
 |---|---|
 | 参数故事 | [timed_mutexes](http://mysql.taobao.org/monthly/2014/08/01/) |
@@ -121,10 +116,12 @@
 | 答疑释惑 | [lower_case_table_names 使用问题](http://mysql.taobao.org/monthly/2015/03/07/) |
 | 答疑释惑 | [UPDATE交换列单表和多表的区别](http://mysql.taobao.org/monthly/2015/04/08/) |
 | 答疑释惑 | [GTID下auto_position=0时数据不一致](http://mysql.taobao.org/monthly/2015/04/10/) |
+| 答疑释惑 | [MySQL · 业务场景 · 业务并发扣款，金额未扣](http://mysql.taobao.org/monthly/2022/12/04/) |
 | 优化改进 | [GTID启动优化](http://mysql.taobao.org/monthly/2014/12/09/) |
 | 优化改进 | [复制性能改进过程](http://mysql.taobao.org/monthly/2015/01/05/) |
 | 新增特性 | [DDL fast fail](http://mysql.taobao.org/monthly/2015/01/02/) |
 | 谈古论今 | [key分区算法演变分析](http://mysql.taobao.org/monthly/2015/01/06/) |
+| 谈古论今 | [UNDO LOG的演进与现状](http://mysql.taobao.org/monthly/2022/10/02/) |
 | 社区动态 | [5.6.23 InnoDB相关Bugfix](http://mysql.taobao.org/monthly/2015/02/02/) |
 | 社区动态 | [MariaDB Role 体系](http://mysql.taobao.org/monthly/2015/06/09/) |
 | 社区动态 | [MySQL内存分配支持NUMA](http://mysql.taobao.org/monthly/2015/07/06/) |
@@ -224,15 +221,15 @@
 | 引擎特性 | [page cleaner 算法](http://mysql.taobao.org/monthly/2020/12/03/) |
 | 引擎特性 | [InnoDB Faster truncate/drop table space](http://mysql.taobao.org/monthly/2021/03/01/) |
 | 引擎特性 | [死锁检测](http://mysql.taobao.org/monthly/2021/05/02/) |
-| 引擎特性 | [庖丁解InnoDB之UNDO LOG](http://mysql.taobao.org/monthly/2021/10/01/)
-| 引擎特性 | [InnoDB之UNDO LOG介绍](http://mysql.taobao.org/monthly/2021/12/02/)
-| 引擎特性 | [Redo Log record编码格式](http://mysql.taobao.org/monthly/2022/01/02/)
-| 引擎特性 | [InnoDB Physiological logging 原理分析](http://mysql.taobao.org/monthly/2022/05/01/)
-| 引擎特性 | [InnoDB unique check 的问题](http://mysql.taobao.org/monthly/2022/05/02/)
-| 引擎特性 | [LOB 物理结构](http://mysql.taobao.org/monthly/2022/05/03/)
-| 引擎特性 | [PolarDB-CloudJump：优化基于云存储服务的云数据库(发表于VLDB 2022)](http://mysql.taobao.org/monthly/2022/06/01/)
-| 引擎特性 | [通过performance_schema 定量分析系统瓶颈](http://mysql.taobao.org/monthly/2022/06/02/)
-| 引擎特性 | [PolarDB Innodb刷脏优化](http://mysql.taobao.org/monthly/2023/04/02/)
+| 引擎特性 | [庖丁解InnoDB之UNDO LOG](http://mysql.taobao.org/monthly/2021/10/01/) |
+| 引擎特性 | [InnoDB之UNDO LOG介绍](http://mysql.taobao.org/monthly/2021/12/02/) |
+| 引擎特性 | [Redo Log record编码格式](http://mysql.taobao.org/monthly/2022/01/02/) |
+| 引擎特性 | [InnoDB Physiological logging 原理分析](http://mysql.taobao.org/monthly/2022/05/01/) |
+| 引擎特性 | [InnoDB unique check 的问题](http://mysql.taobao.org/monthly/2022/05/02/) |
+| 引擎特性 | [LOB 物理结构](http://mysql.taobao.org/monthly/2022/05/03/) |
+| 引擎特性 | [PolarDB-CloudJump：优化基于云存储服务的云数据库(发表于VLDB 2022)](http://mysql.taobao.org/monthly/2022/06/01/) |
+| 引擎特性 | [通过performance_schema 定量分析系统瓶颈](http://mysql.taobao.org/monthly/2022/06/02/) |
+| 引擎特性 | [PolarDB Innodb刷脏优化](http://mysql.taobao.org/monthly/2023/04/02/) |
 | 专家投稿 | [MySQL数据库SYS CPU高的可能性分析](http://mysql.taobao.org/monthly/2015/05/02/) |
 | 专家投稿 | [MySQL5.7 的 JSON 实现](http://mysql.taobao.org/monthly/2016/01/03/) |
 | 答疑解惑 | [InnoDB 预读 VS Oracle 多块读](http://mysql.taobao.org/monthly/2015/05/04/) |
@@ -269,6 +266,12 @@
 | 功能介绍 | [GIS功能介绍](http://mysql.taobao.org/monthly/2021/07/06/) |
 | 功能分析 | [5.6 并行复制实现分析](http://mysql.taobao.org/monthly/2015/08/09/) |
 | 功能分析 | [MySQL表定义缓存](http://mysql.taobao.org/monthly/2015/08/10/) |
+| 功能分析 | [MySQL中的HyperGraph优化器](http://mysql.taobao.org/monthly/2022/06/04/) |
+| 功能分析 | [深潜 - 统计信息采集](http://mysql.taobao.org/monthly/2022/10/05/) |
+| 功能分析 | [MySQL Temporal Data Types](http://mysql.taobao.org/monthly/2022/12/02/) |
+| 功能分析 | [MySQL 中的元数据管理](http://mysql.taobao.org/monthly/2023/10/03/) |
+| 功能分析 | [MySQL Binlog GTID](http://mysql.taobao.org/monthly/2023/11/02/) |
+| 功能分析 | [MySQL 中的压缩技术](http://mysql.taobao.org/monthly/2023/12/04/) |
 | 特性分析 | [5.6 并行复制恢复实现](http://mysql.taobao.org/monthly/2015/09/07/) |
 | 特性分析 | [5.6并行复制事件分发机制](http://mysql.taobao.org/monthly/2015/09/09/) |
 | 特性分析 | [跟踪Metadata lock](http://mysql.taobao.org/monthly/2015/10/02/) |
@@ -402,6 +405,11 @@
 | 源码分析 | [索引选择](http://mysql.taobao.org/monthly/2023/07/02/) |
 | 源码分析 | [庖丁解 InnoDB 之 Buffer Pool](http://mysql.taobao.org/monthly/2023/08/01/) |
 | 源码分析 | [store procedure记录了过多的slow_log的问题详解](http://mysql.taobao.org/monthly/2023/09/01/) |
+| 源码分析 | [undolog 的purge](http://mysql.taobao.org/monthly/2022/05/04/) |
+| 源码分析 | [MySQL内存分配与管理（1）](http://mysql.taobao.org/monthly/2022/11/02/) |
+| 源码分析 | [Innodb 中的 Btree 实现 (一) · 引言 & insert 篇](http://mysql.taobao.org/monthly/2022/12/03/) |
+| 源码分析 | [MySQL Binlog 源码入门](http://mysql.taobao.org/monthly/2023/01/04/) |
+| 源码分析 | [Innodb 中的 Btree 实现 (二) · select 篇](http://mysql.taobao.org/monthly/2023/07/03/) |
 | 源码阅读 | [InnoDB伙伴内存分配系统实现分析](http://mysql.taobao.org/monthly/2020/09/04/) |
 | 源码阅读 | [创建二级索引](http://mysql.taobao.org/monthly/2020/11/03/) |
 | 源码阅读 | [Secondary Engine](http://mysql.taobao.org/monthly/2020/11/04/) |
@@ -428,20 +436,22 @@
 | 最佳实战 | [SQL编码转换浅析](http://mysql.taobao.org/monthly/2021/08/01/) |
 | 社区贡献 | [AliSQL那些事儿](http://mysql.taobao.org/monthly/2016/09/01/) |
 | 捉虫状态 | [bug分析两例](http://mysql.taobao.org/monthly/2016/09/06/) |
-| myrocks | [data dictionary 分析](http://mysql.taobao.org/monthly/2016/10/05/) |
-| myrocks | [myrocks之事务处理](http://mysql.taobao.org/monthly/2016/11/02/) |
-| myrocks | [myrocks统计信息](http://mysql.taobao.org/monthly/2016/12/02/) |
-| myrocks | [myrocks index condition pushdown](http://mysql.taobao.org/monthly/2017/01/02/) |
-| myrocks | [myrocks之备份恢复](http://mysql.taobao.org/monthly/2017/02/02/) |
-| myrocks | [myrocks监控信息](http://mysql.taobao.org/monthly/2017/03/10/) |
-| myrocks | [fast data load](http://mysql.taobao.org/monthly/2017/05/09/) |
-| myrocks | [MyRocks之memtable切换与刷盘](http://mysql.taobao.org/monthly/2017/06/08/) |
-| myrocks | [myrocks写入分析](http://mysql.taobao.org/monthly/2017/07/05/) |
-| myrocks | [myrocks之Bloom filter](http://mysql.taobao.org/monthly/2017/09/04/) |
-| myrocks | [相关tools介绍](http://mysql.taobao.org/monthly/2017/12/10/) |
-| myrocks | [事务锁分析](http://mysql.taobao.org/monthly/2018/03/07/) |
-| myrocks | [clustered index特性](http://mysql.taobao.org/monthly/2018/07/07/) |
-| myrocks | [collation 限制](http://mysql.taobao.org/monthly/2018/09/09/) |
+| MyRocks | [data dictionary 分析](http://mysql.taobao.org/monthly/2016/10/05/) |
+| MyRocks | [MyRocks之事务处理](http://mysql.taobao.org/monthly/2016/11/02/) |
+| MyRocks | [MyRocks统计信息](http://mysql.taobao.org/monthly/2016/12/02/) |
+| MyRocks | [MyRocks index condition pushdown](http://mysql.taobao.org/monthly/2017/01/02/) |
+| MyRocks | [MyRocks之备份恢复](http://mysql.taobao.org/monthly/2017/02/02/) |
+| MyRocks | [MyRocks监控信息](http://mysql.taobao.org/monthly/2017/03/10/) |
+| MyRocks | [fast data load](http://mysql.taobao.org/monthly/2017/05/09/) |
+| MyRocks | [MyRocks之memtable切换与刷盘](http://mysql.taobao.org/monthly/2017/06/08/) |
+| MyRocks | [MyRocks写入分析](http://mysql.taobao.org/monthly/2017/07/05/) |
+| MyRocks | [MyRocks之Bloom filter](http://mysql.taobao.org/monthly/2017/09/04/) |
+| MyRocks | [相关tools介绍](http://mysql.taobao.org/monthly/2017/12/10/) |
+| MyRocks | [事务锁分析](http://mysql.taobao.org/monthly/2018/03/07/) |
+| MyRocks | [clustered index特性](http://mysql.taobao.org/monthly/2018/07/07/) |
+| MyRocks | [collation 限制](http://mysql.taobao.org/monthly/2018/09/09/) |
+| MyRocks | [MyRocks参数介绍](http://mysql.taobao.org/monthly/2018/01/09/) |
+| MyRocks | [TTL特性介绍](http://mysql.taobao.org/monthly/2018/04/04/) |
 | 引擎介绍 | [Sphinx源码剖析（一）](http://mysql.taobao.org/monthly/2016/11/05/) |
 | 引擎介绍 | [Sphinx源码剖析（二）](http://mysql.taobao.org/monthly/2017/04/03/) |
 | 引擎介绍 | [Sphinx源码剖析(三)](http://mysql.taobao.org/monthly/2017/10/06/) |
@@ -454,8 +464,6 @@
 | 社区新闻 | [MariaDB 10.2 GA](http://mysql.taobao.org/monthly/2017/06/10/) |
 | 特性介绍 | [一些流行引擎存储格式简介](http://mysql.taobao.org/monthly/2017/10/04/) |
 | 数据恢复 | [undrop-for-innodb](http://mysql.taobao.org/monthly/2017/11/01/) |
-| MyRocks | [MyRocks参数介绍](http://mysql.taobao.org/monthly/2018/01/09/) |
-| MyRocks | [TTL特性介绍](http://mysql.taobao.org/monthly/2018/04/04/) |
 | RocksDB | [WAL(WriteAheadLog)介绍](http://mysql.taobao.org/monthly/2018/04/09/) |
 | RocksDB | [MANIFEST文件介绍](http://mysql.taobao.org/monthly/2018/05/08/) |
 | RocksDB | [Column Family介绍](http://mysql.taobao.org/monthly/2018/06/09/) |
@@ -504,21 +512,9 @@
 | 工具使用 | [MySQL client pager/edit/tee 介绍](http://mysql.taobao.org/monthly/2023/09/02/) |
 | 行业动态 | [AWS re:Invent2023 Aurora 发布了啥](http://mysql.taobao.org/monthly/2023/12/01/) |
 | 内核剖析 | [issue 111538 MySQL 8.0 instant add/drop column 性能回退问题](http://mysql.taobao.org/monthly/2023/12/02/) |
-| | [undolog 的purge](http://mysql.taobao.org/monthly/2022/05/04/) |
-| | [MySQL中的HyperGraph优化器](http://mysql.taobao.org/monthly/2022/06/04/) |
-| | [UNDO LOG的演进与现状](http://mysql.taobao.org/monthly/2022/10/02/) |
-| | [深潜 - 统计信息采集](http://mysql.taobao.org/monthly/2022/10/05/) |
-| | [MySQL内存分配与管理（1）](http://mysql.taobao.org/monthly/2022/11/02/) |
-| | [MySQL Temporal Data Types](http://mysql.taobao.org/monthly/2022/12/02/) |
-| | [Innodb 中的 Btree 实现 (一) · 引言 & insert 篇](http://mysql.taobao.org/monthly/2022/12/03/) |
-| | [MySQL · 业务场景 · 业务并发扣款，金额未扣](http://mysql.taobao.org/monthly/2022/12/04/) |
-| | [MySQL Binlog 源码入门](http://mysql.taobao.org/monthly/2023/01/04/) |
-| | [Innodb 中的 Btree 实现 (二) · select 篇](http://mysql.taobao.org/monthly/2023/07/03/) |
-| | [MySQL 中的元数据管理](http://mysql.taobao.org/monthly/2023/10/03/) |
-| | [MySQL Binlog GTID](http://mysql.taobao.org/monthly/2023/11/02/) |
-| | [MySQL 中的压缩技术](http://mysql.taobao.org/monthly/2023/12/04/) |
-  
-# PostgreSQL
+
+## PostgreSQL
+
 | 分类 | 标题  |
 |---|---|
 | 特性分析 | [Replication Slot](http://mysql.taobao.org/monthly/2015/02/03/) |
@@ -665,7 +661,8 @@
 | 新特性探索 | [浅谈postgresql分区表实现并发创建索引](http://mysql.taobao.org/monthly/2020/09/05/) |
 | 其它 | [逻辑流复制技术的秘密](http://mysql.taobao.org/monthly/2016/08/02/) |
 
-# Redis
+## Redis
+
 | 分类 | 标题  |
 |---|---|
 | 特性分析 | [AOF Rewrite 分析](http://mysql.taobao.org/monthly/2016/03/05/) |
@@ -678,7 +675,8 @@
 | lazyfree | [大key删除的福音](http://mysql.taobao.org/monthly/2018/10/05/) |
 | 原理介绍 | [利用管道优化aofrewrite](http://mysql.taobao.org/monthly/2018/12/06/) |
 
-# MongoDB
+## MongoDB
+
 | 分类 | 标题  |
 |---|---|
 | 捉虫动态 | [Kill Hang问题排查记录](http://mysql.taobao.org/monthly/2015/12/03/) |
@@ -691,7 +689,7 @@
 | 最佳实践 | [哈希分片为什么分布不均匀](http://mysql.taobao.org/monthly/2019/09/09/) |
 | 最佳实践 | [Spark Connector 实战指南](http://mysql.taobao.org/monthly/2019/10/07/) |
 | Feature | [In-place update in MongoDB](http://mysql.taobao.org/monthly/2018/03/03/) |
-| myrocks | [mongorocks 引擎原理解析](http://mysql.taobao.org/monthly/2018/04/02/) |
+| MyRocks | [mongorocks 引擎原理解析](http://mysql.taobao.org/monthly/2018/04/02/) |
 | 引擎特性 | [journal 与 oplog，究竟谁先写入？](http://mysql.taobao.org/monthly/2018/05/07/) |
 | 引擎特性 | [writeConcern原理解析](http://mysql.taobao.org/monthly/2018/06/05/) |
 | 引擎特性 | [事务实现解析](http://mysql.taobao.org/monthly/2018/07/03/) |
@@ -707,7 +705,8 @@
 | 内核特性 | [wiredtiger page逐出](http://mysql.taobao.org/monthly/2020/07/02/) |
 | 内核特性 | [一致性模型设计与实现](http://mysql.taobao.org/monthly/2021/04/02/) |
 
-# SQL Server
+## SQL Server
+
 | 分类 | 标题  |
 |---|---|
 | 特性介绍 | [统计信息](http://mysql.taobao.org/monthly/2016/12/03/) |
@@ -750,7 +749,8 @@
 | BUG分析 | [Agent 链接泄露分析](http://mysql.taobao.org/monthly/2016/03/04/) |
 | 引擎特性 | [从SQL Server看列式存储](http://mysql.taobao.org/monthly/2022/01/03/) |
 
-# MariaDB
+## MariaDB
+
 | 分类 | 标题  |
 |---|---|
 | 分支特性 | [支持大于16K的InnoDB Page Size](http://mysql.taobao.org/monthly/2014/08/06/) |
@@ -766,11 +766,12 @@
 | 社区动态 | [MariaDB on Power8 (下)](http://mysql.taobao.org/monthly/2016/01/10/) |
 | 版本特性 | [MariaDB 的 GTID 介绍](http://mysql.taobao.org/monthly/2016/02/08/) |
 | 新特性 | [窗口函数](http://mysql.taobao.org/monthly/2016/06/05/) |
-| 源码分析 | [thread pool](http://mysql.taobao.org/monthly/2018/03/09/) 
+| 源码分析 | [thread pool](http://mysql.taobao.org/monthly/2018/03/09/) |
 | 源码分析 | [proxy protocol](http://mysql.taobao.org/monthly/2019/01/07/) |
 | 功能特性 | [无DDL延迟的主备复制](http://mysql.taobao.org/monthly/2022/04/02/) |
-  
-# TokuDB
+
+## TokuDB
+
 | 分类 | 标题  |
 |---|---|
 | 性能优化 | [Bulk Fetch](http://mysql.taobao.org/monthly/2014/08/08/) |
@@ -795,7 +796,8 @@
 | 捉虫动态 | [MRR 导致查询失败](http://mysql.taobao.org/monthly/2017/04/08/) |
 | 源码分析 | [一条query语句的执行过程](http://mysql.taobao.org/monthly/2017/01/10/) |
 
-# GPDB
+## GPDB
+
 | 分类 | 标题  |
 |---|---|
 | 特性分析 | [GreenPlum Primary/Mirror 同步机制](http://mysql.taobao.org/monthly/2016/01/02/) |
@@ -804,34 +806,38 @@
 | 特性分析 | [Segment 修复指南](http://mysql.taobao.org/monthly/2016/04/03/) |
 | 特性分析 | [Filespace和Tablespace](http://mysql.taobao.org/monthly/2016/06/04/) |
 
-# Memcached
+## Memcached
+
 | 分类 | 标题  |
 |---|---|
 | 最佳实践 | [热点 Key 问题解决方案](http://mysql.taobao.org/monthly/2016/04/06/) |
 
+## PG&GP
 
-# PG&GP
 | 分类 | 标题  |
 |---|---|
 | 特性分析 | [外部数据导入接口实现分析](http://mysql.taobao.org/monthly/2016/05/05/) |
 
+## SQL优化
 
-# SQL优化
 | 分类 | 标题  |
 |---|---|
 | 经典案例 | [索引篇](http://mysql.taobao.org/monthly/2017/02/05/) |
 
-# RocksDB
+## RocksDB
+
 | 分类 | 标题  |
 |---|---|
 | 特性介绍 | [HashLinkList 内存表](http://mysql.taobao.org/monthly/2017/05/08/) |
 
-# Influxdb
+## Influxdb
+
 | 分类 | 标题  |
 |---|---|
 | 源码分析 | [Influxdb cluster实现探究](http://mysql.taobao.org/monthly/2018/02/02/) |
 
-# Database
+## Database
+
 | 分类 | 标题  |
 |---|---|
 | 理论基础 | [数据库事务隔离发展历史](http://mysql.taobao.org/monthly/2018/10/06/) |
@@ -846,6 +852,8 @@
 | 理论基础 | [Raft phd 论文中的pipeline 优化](http://mysql.taobao.org/monthly/2019/03/08/) |
 | 理论基础 | [B+树数据库加锁历史](http://mysql.taobao.org/monthly/2022/01/) |
 | 理论基础 | [热点优化 (SIGMOD'21 Paper 解读)](http://mysql.taobao.org/monthly/2022/02/03/) |
+| 理论基础 | [B+树数据库故障恢复概述](http://mysql.taobao.org/monthly/2022/10/04/) |
+| 理论基础 | [Long-lived Transactions 产生的影响](http://mysql.taobao.org/monthly/2023/02/03/) |
 | 原理介绍 | [Google Percolator 分布式事务实现原理解读](http://mysql.taobao.org/monthly/2018/11/02/) |
 | 原理介绍 | [关于Paxos 幽灵复现问题](http://mysql.taobao.org/monthly/2018/11/03/) |
 | 原理介绍 | [数据库的事务与复制](http://mysql.taobao.org/monthly/2018/12/01/) |
@@ -855,6 +863,7 @@
 | 案例分析 | [UTF8与GBK数据库字符集](http://mysql.taobao.org/monthly/2020/08/07/) |
 | 新特性 | [映射队列](http://mysql.taobao.org/monthly/2020/09/08/) |
 | 发展前沿 | [NewSQL数据库概述](http://mysql.taobao.org/monthly/2020/12/01/) |
+| 发展前沿 | [聊聊日志即数据库](http://mysql.taobao.org/monthly/2023/11/01/) |
 | 最佳实践 | [内存索引指南](http://mysql.taobao.org/monthly/2021/01/04/) |
 | 最佳实践 | [高性能 Hash Join 算法实现简述](http://mysql.taobao.org/monthly/2021/01/05/) |
 | 社区动态 | [数据库中的表达式](http://mysql.taobao.org/monthly/2021/02/05/) |
@@ -862,20 +871,18 @@
 | 引擎分析 | [POLARIS 基于单机数据库扩展的分布式查询处理引擎](http://mysql.taobao.org/monthly/2021/08/03/) |
 | 数据库系统 | [事物并发控制 · Two-phase Lock Protocol](http://mysql.taobao.org/monthly/2021/10/02/) |
 | 存储引擎 | [HTAP列存引擎探秘](http://mysql.taobao.org/monthly/2022/02/02/) |
-| | [B+树数据库故障恢复概述](http://mysql.taobao.org/monthly/2022/10/04/) |
-| | [Long-lived Transactions 产生的影响](http://mysql.taobao.org/monthly/2023/02/03/) |
-| | [聊聊日志即数据库](http://mysql.taobao.org/monthly/2023/11/01/) |
-  
-# X-Engine
+
+## X-Engine
+
 | 分类 | 标题  |
 |---|---|
 | 性能优化 | [Parallel WAL Recovery for X-Engine](http://mysql.taobao.org/monthly/2020/09/03/) |
 | 引擎特性 | [并行DDL](http://mysql.taobao.org/monthly/2021/01/07/) |
 
-# PolarDB
+## PolarDB
+
 | 分类 | 标题  |
 |---|---|
-| 新品介绍 | [深入了解阿里云新一代产品 POLARDB](http://mysql.taobao.org/monthly/2017/09/01/) |
 | 最佳实践 | [POLARDB不得不知道的秘密](http://mysql.taobao.org/monthly/2018/10/01/) |
 | 最佳实践 | [POLARDB不得不知道的秘密(二)](http://mysql.taobao.org/monthly/2019/01/02/) |
 | 最佳实践 | [并行查询优化器的应用实践](http://mysql.taobao.org/monthly/2021/03/03/) |
@@ -893,20 +900,22 @@
 | 引擎特性 | [DDL中MDL锁的优化和演进](http://mysql.taobao.org/monthly/2023/05/02/) |
 | 引擎特性 | [PolarDB IMCI中的行列融合执行](http://mysql.taobao.org/monthly/2023/05/04/) |
 | 性能优化 | [敢问路在何方 — 论B+树索引的演进方向（中）](http://mysql.taobao.org/monthly/2019/02/01/) |
+| 性能优化 | [PolarDB auto_inc 场景性能优化之路](http://mysql.taobao.org/monthly/2023/03/01/) |
 | 源码分析 | [深度解析PolarDB的并行查询引擎](http://mysql.taobao.org/monthly/2021/01/01/) |
 | 优化改进 | [DDL的优化和演进](http://mysql.taobao.org/monthly/2021/01/03/) |
-| 优化改进 | [使用窗口聚合函数来将子查询解关联](http://mysql.taobao.org/monthly/2021/02/09/)
+| 优化改进 | [使用窗口聚合函数来将子查询解关联](http://mysql.taobao.org/monthly/2021/02/09/) |
 | 特性分析 | [Explain Format Tree 详解](http://mysql.taobao.org/monthly/2021/02/01/) |
 | 新特性| [路在脚下, 从BTree 到Polar Index](http://mysql.taobao.org/monthly/2021/05/01/) |
 | 性能大赛| [云原生共享内存数据库性能优化](http://mysql.taobao.org/monthly/2022/06/06/) |
 | Serverless之路 | [无感秒切](http://mysql.taobao.org/monthly/2022/07/03/) |
 | 功能特性 | [非阻塞DDL](http://mysql.taobao.org/monthly/2022/10/01/) |
 | 功能特性 | [嵌套子查询优化的性能分析](http://mysql.taobao.org/monthly/2022/10/06/) |
-|  | [PolarDB auto_inc 场景性能优化之路](http://mysql.taobao.org/monthly/2023/03/01/) |
-|  | [极致性价比:自研数据库PolarDB on 自研芯片倚天](http://mysql.taobao.org/monthly/2023/06/03/) |
-|  | [PolarDB Serverless弹性能力探索指南](http://mysql.taobao.org/monthly/2023/10/01/) |
-  
-# PolarDB MySQL
+| 广而告之 | [极致性价比:自研数据库PolarDB on 自研芯片倚天](http://mysql.taobao.org/monthly/2023/06/03/) |
+| 广而告之 | [深入了解阿里云新一代产品 POLARDB](http://mysql.taobao.org/monthly/2017/09/01/) |
+| 广而告之 | [PolarDB Serverless弹性能力探索指南](http://mysql.taobao.org/monthly/2023/10/01/) |
+
+## PolarDB MySQL
+
 | 分类 | 标题  |
 |---|---|
 | 引擎特性 | [内核原生的全局索引支持](http://mysql.taobao.org/monthly/2022/08/03/) |
@@ -918,23 +927,24 @@
 | 功能特性 | [大表扫描优化](http://mysql.taobao.org/monthly/2023/02/01/) |
 | 功能特性 | [Auto Plan Cache](http://mysql.taobao.org/monthly/2023/04/01/) |
 | 功能特性 | [Cube, grouping sets功能介绍与实现](http://mysql.taobao.org/monthly/2023/05/05/) |
-|  | [PolarTrans事务系统介绍(一)](http://mysql.taobao.org/monthly/2022/09/04/) |
-|  | [PolarDB MySQL 大表实践-分区表篇](http://mysql.taobao.org/monthly/2022/11/01/) |
-|  | [PolarDB MySQL 新特性 - Partial Result Cache](http://mysql.taobao.org/monthly/2022/12/01/) |
-|  | [PolarDB for MySQL 优化器查询变换系列 - IN-List 变换](http://mysql.taobao.org/monthly/2023/01/01/) |
-|  | [PolarDB IMCI 的 TopK 查询执行优化](http://mysql.taobao.org/monthly/2023/01/02/) |
-|  | [库表变更、加锁没审计？PolarDB MySQL 新功能 SQL Detail](http://mysql.taobao.org/monthly/2023/01/03/) |
-|  | [PolarDB MySQL的INTERVAL分区如何让DBA解放双手](http://mysql.taobao.org/monthly/2023/02/02/) |
-|  | [PolarDB MySQL · 持续补强的全局二级索引](http://mysql.taobao.org/monthly/2023/03/02/) |
-|  | [PolarDB for MySQL 优化器查询变换系列 - 条件下推](http://mysql.taobao.org/monthly/2023/03/03/) |
-|  | [PolarDB MySQL 联邦查询优化特征（条件下推、按需返回列、LIMIT OFFSET下推）](http://mysql.taobao.org/monthly/2023/04/01/) |
-|  | [库表恢复性能优化](http://mysql.taobao.org/monthly/2023/08/02/) |
-|  | [InnoDB冷数据表OSS归档](http://mysql.taobao.org/monthly/2023/08/03/) |
-|  | [云原生数据库PolarDB MySQL 8.0.2 DDL介绍](http://mysql.taobao.org/monthly/2023/09/03/) |
-|  | [PolarDB MySQL DBA工具库新增一员猛将Statement Outline](http://mysql.taobao.org/monthly/2023/10/02/) |
-|  | [PolarDB MySQL自适应查询优化-自适应行列路由](http://mysql.taobao.org/monthly/2023/12/03/) |
-  
-# AliSQL
+| 功能特性 | [PolarTrans事务系统介绍(一)](http://mysql.taobao.org/monthly/2022/09/04/) |
+| 功能特性 | [PolarDB MySQL 新特性 - Partial Result Cache](http://mysql.taobao.org/monthly/2022/12/01/) |
+| 功能特性 | [库表变更、加锁没审计？PolarDB MySQL 新功能 SQL Detail](http://mysql.taobao.org/monthly/2023/01/03/) |
+| 功能特性 | [PolarDB MySQL的INTERVAL分区如何让DBA解放双手](http://mysql.taobao.org/monthly/2023/02/02/) |
+| 功能特性 | [PolarDB MySQL · 持续补强的全局二级索引](http://mysql.taobao.org/monthly/2023/03/02/) |
+| 功能特性 | [InnoDB冷数据表OSS归档](http://mysql.taobao.org/monthly/2023/08/03/) |
+| 功能特性 | [云原生数据库PolarDB MySQL 8.0.2 DDL介绍](http://mysql.taobao.org/monthly/2023/09/03/) |
+| 功能特性 | [PolarDB MySQL DBA工具库新增一员猛将Statement Outline](http://mysql.taobao.org/monthly/2023/10/02/) |
+| 功能特性 | [PolarDB MySQL自适应查询优化-自适应行列路由](http://mysql.taobao.org/monthly/2023/12/03/) |
+| 最佳实践 | [PolarDB MySQL 大表实践-分区表篇](http://mysql.taobao.org/monthly/2022/11/01/) |
+| 性能优化 | [PolarDB IMCI 的 TopK 查询执行优化](http://mysql.taobao.org/monthly/2023/01/02/) |
+| 性能优化 | [库表恢复性能优化](http://mysql.taobao.org/monthly/2023/08/02/) |
+| 查询优化 | [PolarDB MySQL 联邦查询优化特征（条件下推、按需返回列、LIMIT OFFSET下推）](http://mysql.taobao.org/monthly/2023/04/01/) |
+| 查询优化 | [PolarDB for MySQL 优化器查询变换系列 - 条件下推](http://mysql.taobao.org/monthly/2023/03/03/) |
+| 查询优化 | [PolarDB for MySQL 优化器查询变换系列 - IN-List 变换](http://mysql.taobao.org/monthly/2023/01/01/) |
+
+## AliSQL
+
 | 分类 | 标题  |
 |---|---|
 | 社区动态 | [关于开源之后评论的评论](http://mysql.taobao.org/monthly/2016/10/01/) |
@@ -950,12 +960,14 @@
 | 内核特性 | [快速 DDL](http://mysql.taobao.org/monthly/2020/07/03/) |
 | 内核新特性 | [2020技术总结](http://mysql.taobao.org/monthly/2020/12/02/) |
 
-# PetaData
+## PetaData
+
 | 分类 | 标题  |
 |---|---|
 | 架构体系 | [PetaData第二代低成本存储体系](http://mysql.taobao.org/monthly/2016/09/02/) |
 
-# HybridDB
+## HybridDB
+
 | 分类 | 标题  |
 |---|---|
 | 最佳实践 | [OLAP和OLTP一体化打造](http://mysql.taobao.org/monthly/2016/12/05/) |
@@ -965,8 +977,8 @@
 | 稳定性 | [HybridDB如何优雅的处理Out Of Memery问题](http://mysql.taobao.org/monthly/2017/04/09/) |
 | 源码分析 | [MemoryContext 内存管理和内存异常分析](http://mysql.taobao.org/monthly/2017/07/07/) |
 
-# CloudDBA
+## CloudDBA
+
 | 分类 | 标题  |
 |---|---|
 | 最佳实践 | [Performance Insights](http://mysql.taobao.org/monthly/2019/06/03/) |
-
