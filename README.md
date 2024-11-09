@@ -230,6 +230,7 @@
 | 引擎特性 | [PolarDB-CloudJump：优化基于云存储服务的云数据库(发表于VLDB 2022)](http://mysql.taobao.org/monthly/2022/06/01/) |
 | 引擎特性 | [通过performance_schema 定量分析系统瓶颈](http://mysql.taobao.org/monthly/2022/06/02/) |
 | 引擎特性 | [PolarDB Innodb刷脏优化](http://mysql.taobao.org/monthly/2023/04/02/) |
+| 引擎特性 | [InnoDB 全文索引：基本概念，插入和删除](http://mysql.taobao.org/monthly/2024/05/03/) |
 | 专家投稿 | [MySQL数据库SYS CPU高的可能性分析](http://mysql.taobao.org/monthly/2015/05/02/) |
 | 专家投稿 | [MySQL5.7 的 JSON 实现](http://mysql.taobao.org/monthly/2016/01/03/) |
 | 答疑解惑 | [InnoDB 预读 VS Oracle 多块读](http://mysql.taobao.org/monthly/2015/05/04/) |
@@ -267,6 +268,7 @@
 | 功能介绍 | [GIS功能介绍](http://mysql.taobao.org/monthly/2021/07/06/) |
 | 功能介绍 | [MySQL 权限管理](http://mysql.taobao.org/monthly/2024/01/02/) |
 | 功能介绍 | [MySQL 深潜 - 直方图采样优化](http://mysql.taobao.org/monthly/2024/01/03/) |
+| 功能介绍 | [MySQL 深潜 - 重构后的 ROLLUP 实现](http://mysql.taobao.org/monthly/2024/05/01/) |
 | 功能分析 | [5.6 并行复制实现分析](http://mysql.taobao.org/monthly/2015/08/09/) |
 | 功能分析 | [MySQL表定义缓存](http://mysql.taobao.org/monthly/2015/08/10/) |
 | 功能分析 | [MySQL中的HyperGraph优化器](http://mysql.taobao.org/monthly/2022/06/04/) |
@@ -517,6 +519,7 @@
 | 行业动态 | [AWS re:Invent2023 Aurora 发布了啥](http://mysql.taobao.org/monthly/2023/12/01/) |
 | 内核剖析 | [issue 111538 MySQL 8.0 instant add/drop column 性能回退问题](http://mysql.taobao.org/monthly/2023/12/02/) |
 | 查询优化 | [MySQL查询优化分析 - MySQL优化执行的基础概念](http://mysql.taobao.org/monthly/2024/04/01/) |
+| 查询优化 | [MySQL查询优化分析 - 常用分析方法](http://mysql.taobao.org/monthly/2024/05/02/) |
 
 ## PostgreSQL
 
