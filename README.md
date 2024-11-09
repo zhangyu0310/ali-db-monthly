@@ -581,6 +581,7 @@
 | 源码分析 | [AutoVacuum机制之autovacuum worker](http://mysql.taobao.org/monthly/2018/02/04/) |
 | 源码分析 | [PostgreSQL物理备份内部原理](http://mysql.taobao.org/monthly/2018/08/06/) |
 | 源码分析 | [回放分析（一）](http://mysql.taobao.org/monthly/2020/04/01/) |
+| 源码分析 | [PostgreSQL 子事务探秘](http://mysql.taobao.org/monthly/2024/07/03/) |
 | 实现分析 | [PostgreSQL 10.0 并行查询和外部表的结合](http://mysql.taobao.org/monthly/2017/05/07/) |
 | 实战经验 | [如何预测Freeze IO风暴](http://mysql.taobao.org/monthly/2016/06/03/) |
 | 实战经验 | [分组TOP性能提升44倍](http://mysql.taobao.org/monthly/2016/07/03/) |
@@ -882,6 +883,7 @@
 | 存储引擎 | [HTAP列存引擎探秘](http://mysql.taobao.org/monthly/2022/02/02/) |
 | 实用工具 | [PT_PERF：基于 Intel PT 的时延性能分析工具](http://mysql.taobao.org/monthly/2024/04/02/) |
 | 实用工具 | [如何使用 Intel Processor Trace 工具查看任意函数执行时间](http://mysql.taobao.org/monthly/2024/04/03/) |
+| 实用工具 | [使用PT_PERF排查线上慢SQL问题](http://mysql.taobao.org/monthly/2024/07/04/) |
 
 ## X-Engine
 
@@ -952,12 +954,14 @@
 | 最佳实践 | [PolarDB MySQL 大表实践-分区表篇](http://mysql.taobao.org/monthly/2022/11/01/) |
 | 性能优化 | [PolarDB IMCI 的 TopK 查询执行优化](http://mysql.taobao.org/monthly/2023/01/02/) |
 | 性能优化 | [库表恢复性能优化](http://mysql.taobao.org/monthly/2023/08/02/) |
+| 性能优化 | [PolarDB MySQL 冷数据DDL优化](http://mysql.taobao.org/monthly/2024/07/01/) |
 | 查询优化 | [PolarDB MySQL 联邦查询优化特征（条件下推、按需返回列、LIMIT OFFSET下推）](http://mysql.taobao.org/monthly/2023/04/01/) |
 | 查询优化 | [PolarDB for MySQL 优化器查询变换系列 - 条件下推](http://mysql.taobao.org/monthly/2023/03/03/) |
 | 查询优化 | [PolarDB for MySQL 优化器查询变换系列 - IN-List 变换](http://mysql.taobao.org/monthly/2023/01/01/) |
 | 查询优化 | [PolarDB子查询改写系列（三）子查询折叠](http://mysql.taobao.org/monthly/2024/01/01/) |
 | 查询优化 | [PolarDB 基于代价的查询改写技术解析](http://mysql.taobao.org/monthly/2024/02/02/) |
 | 查询优化 | [PolarDB优化器功能 - 连接消除](http://mysql.taobao.org/monthly/2024/06/01/) |
+| 查询优化 | [PolarDB MySQL 冷数据查询性能优化](http://mysql.taobao.org/monthly/2024/07/02/) |
 
 ## AliSQL
 
