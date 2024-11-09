@@ -264,6 +264,8 @@
 | TokuDB | [rbtree block allocator](http://mysql.taobao.org/monthly/2016/11/03/) |
 | 功能介绍 | [binlog拉取速度的控制](http://mysql.taobao.org/monthly/2015/07/09/) |
 | 功能介绍 | [GIS功能介绍](http://mysql.taobao.org/monthly/2021/07/06/) |
+| 功能介绍 | [MySQL 权限管理](http://mysql.taobao.org/monthly/2024/01/02/) |
+| 功能介绍 | [MySQL 深潜 - 直方图采样优化](http://mysql.taobao.org/monthly/2024/01/03/) |
 | 功能分析 | [5.6 并行复制实现分析](http://mysql.taobao.org/monthly/2015/08/09/) |
 | 功能分析 | [MySQL表定义缓存](http://mysql.taobao.org/monthly/2015/08/10/) |
 | 功能分析 | [MySQL中的HyperGraph优化器](http://mysql.taobao.org/monthly/2022/06/04/) |
@@ -942,6 +944,7 @@
 | 查询优化 | [PolarDB MySQL 联邦查询优化特征（条件下推、按需返回列、LIMIT OFFSET下推）](http://mysql.taobao.org/monthly/2023/04/01/) |
 | 查询优化 | [PolarDB for MySQL 优化器查询变换系列 - 条件下推](http://mysql.taobao.org/monthly/2023/03/03/) |
 | 查询优化 | [PolarDB for MySQL 优化器查询变换系列 - IN-List 变换](http://mysql.taobao.org/monthly/2023/01/01/) |
+| 查询优化 | [PolarDB子查询改写系列（三）子查询折叠](http://mysql.taobao.org/monthly/2024/01/01/) |
 
 ## AliSQL
 
