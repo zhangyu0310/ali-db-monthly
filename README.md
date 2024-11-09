@@ -188,7 +188,7 @@
 | 引擎特性 | [网络模块优化](http://mysql.taobao.org/monthly/2019/09/03/) |
 | 引擎特性 | [Multi-Valued Indexes 简述](http://mysql.taobao.org/monthly/2019/09/04/) |
 | 引擎特性 | [Innodb 表空间](http://mysql.taobao.org/monthly/2019/10/01/) |
-| 引擎特性 | [POLARDB 并行查询加速全程详解](http://mysql.taobao.org/monthly/2019/10/02/) |
+| 引擎特性 | [PolarDB 并行查询加速全程详解](http://mysql.taobao.org/monthly/2019/10/02/) |
 | 引擎特性 | [Sequence Engine](http://mysql.taobao.org/monthly/2019/10/05/) |
 | 引擎特性 | [RDS三节点企业版 一致性协议](http://mysql.taobao.org/monthly/2019/11/06/) |
 | 引擎特性 | [RDS三节点企业版 Learner 只读实例](http://mysql.taobao.org/monthly/2019/11/07/) |
@@ -885,10 +885,11 @@
 
 | 分类 | 标题  |
 |---|---|
-| 最佳实践 | [POLARDB不得不知道的秘密](http://mysql.taobao.org/monthly/2018/10/01/) |
-| 最佳实践 | [POLARDB不得不知道的秘密(二)](http://mysql.taobao.org/monthly/2019/01/02/) |
+| 最佳实践 | [PolarDB不得不知道的秘密](http://mysql.taobao.org/monthly/2018/10/01/) |
+| 最佳实践 | [PolarDB不得不知道的秘密(二)](http://mysql.taobao.org/monthly/2019/01/02/) |
 | 最佳实践 | [并行查询优化器的应用实践](http://mysql.taobao.org/monthly/2021/03/03/) |
 | 理论基础 | [敢问路在何方 — 论B+树索引的演进方向（上）](http://mysql.taobao.org/monthly/2018/11/01/) |
+| 理论基础 | [敢问路在何方 — 论B+树索引的演进方向（中）](http://mysql.taobao.org/monthly/2019/02/01/) |
 | 理论基础 | [数据库故障恢复机制的前世今生](http://mysql.taobao.org/monthly/2019/01/01/) |
 | 引擎特性 | [物理复制解读](http://mysql.taobao.org/monthly/2018/12/05/) |
 | 引擎特性 | [历史库](http://mysql.taobao.org/monthly/2020/12/04/) |
@@ -901,11 +902,11 @@
 | 引擎特性 | [PolarDB备份与恢复介绍](http://mysql.taobao.org/monthly/2022/07/02/) |
 | 引擎特性 | [DDL中MDL锁的优化和演进](http://mysql.taobao.org/monthly/2023/05/02/) |
 | 引擎特性 | [PolarDB IMCI中的行列融合执行](http://mysql.taobao.org/monthly/2023/05/04/) |
-| 性能优化 | [敢问路在何方 — 论B+树索引的演进方向（中）](http://mysql.taobao.org/monthly/2019/02/01/) |
 | 性能优化 | [PolarDB auto_inc 场景性能优化之路](http://mysql.taobao.org/monthly/2023/03/01/) |
 | 源码分析 | [深度解析PolarDB的并行查询引擎](http://mysql.taobao.org/monthly/2021/01/01/) |
 | 优化改进 | [DDL的优化和演进](http://mysql.taobao.org/monthly/2021/01/03/) |
 | 优化改进 | [使用窗口聚合函数来将子查询解关联](http://mysql.taobao.org/monthly/2021/02/09/) |
+| 优化改进 | [PolarDB 文件元数据多节点一致性同步优化](http://mysql.taobao.org/monthly/2024/02/01/) |
 | 特性分析 | [Explain Format Tree 详解](http://mysql.taobao.org/monthly/2021/02/01/) |
 | 新特性| [路在脚下, 从BTree 到Polar Index](http://mysql.taobao.org/monthly/2021/05/01/) |
 | 性能大赛| [云原生共享内存数据库性能优化](http://mysql.taobao.org/monthly/2022/06/06/) |
@@ -913,7 +914,7 @@
 | 功能特性 | [非阻塞DDL](http://mysql.taobao.org/monthly/2022/10/01/) |
 | 功能特性 | [嵌套子查询优化的性能分析](http://mysql.taobao.org/monthly/2022/10/06/) |
 | 广而告之 | [极致性价比:自研数据库PolarDB on 自研芯片倚天](http://mysql.taobao.org/monthly/2023/06/03/) |
-| 广而告之 | [深入了解阿里云新一代产品 POLARDB](http://mysql.taobao.org/monthly/2017/09/01/) |
+| 广而告之 | [深入了解阿里云新一代产品 PolarDB](http://mysql.taobao.org/monthly/2017/09/01/) |
 | 广而告之 | [PolarDB Serverless弹性能力探索指南](http://mysql.taobao.org/monthly/2023/10/01/) |
 
 ## PolarDB MySQL
@@ -945,6 +946,7 @@
 | 查询优化 | [PolarDB for MySQL 优化器查询变换系列 - 条件下推](http://mysql.taobao.org/monthly/2023/03/03/) |
 | 查询优化 | [PolarDB for MySQL 优化器查询变换系列 - IN-List 变换](http://mysql.taobao.org/monthly/2023/01/01/) |
 | 查询优化 | [PolarDB子查询改写系列（三）子查询折叠](http://mysql.taobao.org/monthly/2024/01/01/) |
+| 查询优化 | [PolarDB 基于代价的查询改写技术解析](http://mysql.taobao.org/monthly/2024/02/02/) |
 
 ## AliSQL
 
